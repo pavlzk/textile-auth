@@ -1,9 +1,14 @@
-name = "worker-typescript-template"
+name = "worker-textile-auth"
 type = "javascript"
 zone_id = ""
 account_id = ""
 route = ""
 workers_dev = true
+compatibility_date = "2022-04-13"
+
+[vars]
+USER_API_KEY = ""
+USER_API_SECRET = ""
 
 [build]
 command = "npm install && npm run build"
